@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    font-family: -apple-system, Arial;
+    background: url("");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    background-image: url(back\ .jpeg);
+}
+
+.header {
+    text-align: center;
+    padding: 25px;
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+.nav {
+    text-align: center;
+    padding: 15px;
+}
+
+.nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.nav a:hover {
+    opacity: 1;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-img {
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.card {
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    width: 250px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px;
+}
+
+.product {
+    padding: 20px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+}
+
+.product img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.login {
+    margin: auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px;
+    width: 250px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+#body2 {
+    background-color: blue;
+}
+
+.exec-panel {
+    padding: 80px 20px;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+}
+
+.exec-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.exec-sub {
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+
+.exec-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.exec-card {
+    background: rgba(255,255,255,0.08);
+    padding: 25px;
+    width: 280px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    transition: 0.3s;
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.exec-card:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+.exec-card h3 {
+    margin-bottom: 15px;
+}
+
+.exec-card p {
+    margin: 5px 0;
+    opacity: 0.8;
+}
+
+.exec-nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.home-btn, .logout-btn {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: none;
+    text-decoration: none;
+    background: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.home-btn:hover, .logout-btn:hover {
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: rgba(0,0,0,0.6);
+}
+
+.hero-main {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.hero-sub {
+    max-width: 600px;
+    margin: 15px auto;
+    opacity: 0.8;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 26px;
+}
+
+.features {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card {
+    margin: 10px;
+}

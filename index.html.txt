@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zentrix Tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showUser()">
+
+<header>
+    <h1>ZENTRIX</h1>
+    <p>Future of Technology</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="login.html">Login</a>
+</nav>
+
+<section>
+    <h2>About Us</h2>
+    <p id="welcome"></p>
+    <p>Zentrix is a modern tech brand focused on innovation and smart devices.</p>
+    <p>CEO: Sehajbir Singh & Ishika</p>
+</section>
+
+<footer>
+    <p>© 2026 Zentrix</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
